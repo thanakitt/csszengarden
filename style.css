@@ -1,0 +1,55 @@
+h1 {
+  background: url(bg.webp) no-repeat center fixed;
+  background-size: cover;
+  border-radius: 100px;
+  padding: 100px 50px 100px;
+  text-align: center;
+  color: white;
+  text-shadow: 4px 4px 10px coral;
+  font-size: 3pc;
+}
+
+div {
+  font-family: Verdana, sans-serif;
+}
+
+.sidebar {
+  background-image: url(bg2.jpg);
+  background-size: contain;
+}
+
+a:hover, a:link, a:visited {
+  background-color: #0da715;
+  border-radius: 10px;
+  color: white;
+  padding: 5px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+a:hover {
+  font-size: 150%;
+}
+
+.sidebar a:link, .sidebar a:hover, .sidebar a:visited {
+  color: white;
+  background-color: #71b8e0;
+  border-radius: 10px;
+}
+.sidebar h3 {
+  color: #a00131;
+}
+
+p {
+  line-height: 1.5;
+}
+
+h3, h2 {
+  color: orange;
+}
+
+/*# sourceMappingURL=style.css.map */
